@@ -15,9 +15,8 @@ namespace Kvintetten
             Description = description;
         }
 
-        public virtual string ToString()
+        public override string ToString()
         {
-            base.ToString();
             return $"Description: {Description}";
         }
     }

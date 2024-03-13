@@ -16,7 +16,7 @@ namespace Kvintetten
 
         public override string ToString()
         {
-            return base.ToString();
+            return base.ToString() + $"Antal strenge: {StringCount}";
         }
     }
 }

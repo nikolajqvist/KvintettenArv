@@ -10,7 +10,7 @@ namespace Kvintetten
     {
         public Violin(string description, int stringCount) : base(description, stringCount)
         {
-     
+
         }
         public override string ToString()
         {
