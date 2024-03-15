@@ -6,20 +6,15 @@ using System.Threading.Tasks;
 
 namespace Kvintetten
 {
-    public class Violin : Strygeinstrument
+    internal class Guitar : Strygeinstrument
     {
-        public Violin(string description, int stringCount) : base(description, stringCount)
+        public Guitar(string description, int stringCount) : base(description, stringCount)
         {
 
         }
         public override string ToString()
         {
             return base.ToString();
-        }
-
-        public void ViolinPlay()
-        {
-            
         }
     }
 }
